@@ -1,0 +1,14 @@
+{
+  "name": "skia-canvas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run skia",
+    "skia": "node --watch skia.js",
+    "cairo": "node --watch cairo.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.44",
+    "canvas": "^2.11.2"
+  }
+}
